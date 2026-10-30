@@ -5,7 +5,10 @@
     background-image:
     linear-gradient(to right, rgba(255,255,255,0.5) 1px, transparent 1px), linear-gradient(to bottom, rgba(255,255,255,0.5) 1px, transparent 1px);
     background-size: 10vh 10vh;
-    display: flex;
+}
+.texty {
+    width: 100vw;
+    display: block;
 }
 .maintext {
     color: antiquewhite;
@@ -13,13 +16,35 @@
     font-family: monospace;
     margin-left: 2vh;
     margin-top: 3vh;
-    display: inline;
+    display: inline-block;
     background-color: black;
     border: rgba(250, 235, 215, 0.566) solid 1px ;
-    transition: transform 0.4s ease-in-out;
+    transition: transform 0.3s ease-out;
 }
 .maintext:hover {
-    transform: scale(1.03);
+    transform: scale(1.05);
     color: black;
     background-color: antiquewhite;
+}
+.gridmyguy {
+    display: grid;
+    grid-template-columns: repeat(5, 30vh);
+}
+.grid-card {
+    display: flex;
+    flex-direction: column;
+    gap: 3vh;
+    font-family: monospace;
+    color: antiquewhite;
+    background-color: black;
+    border: rgba(250, 235, 215, 0.566) solid 1px ;
+    width: 85vh;
+    height: 60vh;
+    padding: 2vh;
+    justify-content: center;
+    text-align: center;
+}
+.gvid {
+    position: relative;
+    max-width: 85vh;
 }
