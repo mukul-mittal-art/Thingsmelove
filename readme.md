@@ -3,7 +3,7 @@
 
 I have coded this personal website to showcase different things I personally love, like yt vids, films, or songs.
 # My demo link
-![https://thingsmelove.netlify.app](https://thingsmelove.netlify.app)
+[https://thingsmelove.netlify.app](https://thingsmelove.netlify.app)
 
 # Tech stack
 Program used: Visual Studio Code
