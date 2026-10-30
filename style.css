@@ -1,0 +1,25 @@
+.body {
+    overflow-x: auto;
+    overflow-y: hidden;
+    background-color: black;
+    background-image:
+    linear-gradient(to right, rgba(255,255,255,0.5) 1px, transparent 1px), linear-gradient(to bottom, rgba(255,255,255,0.5) 1px, transparent 1px);
+    background-size: 10vh 10vh;
+    display: flex;
+}
+.maintext {
+    color: antiquewhite;
+    font-size: 10vh;
+    font-family: monospace;
+    margin-left: 2vh;
+    margin-top: 3vh;
+    display: inline;
+    background-color: black;
+    border: rgba(250, 235, 215, 0.566) solid 1px ;
+    transition: transform 0.4s ease-in-out;
+}
+.maintext:hover {
+    transform: scale(1.03);
+    color: black;
+    background-color: antiquewhite;
+}
