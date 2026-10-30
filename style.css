@@ -9,6 +9,8 @@
 .body::-webkit-scrollbar {
     display: none;
 }
+
+/* MY MAIN HEADING TEXT */
 .texty {
     width: 100vw;
     display: block;
@@ -29,11 +31,15 @@
     color: black;
     background-color: antiquewhite;
 }
+
+/* MY MAIN GRID */
 .gridmyguy {
     display: grid;
     grid-template-columns: repeat(5, 90vh);
     gap: 2vh;
 }
+
+/* INDIVIDUAL GRID CARD */
 .grid-card {
     display: flex;
     flex-direction: column;
@@ -48,8 +54,4 @@
     justify-content: center;
     text-align: center;
     align-items: center;
-}
-.gvid {
-    position: relative;
-    max-width: 85vh;
 }
